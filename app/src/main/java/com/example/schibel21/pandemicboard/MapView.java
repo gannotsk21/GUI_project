@@ -27,6 +27,8 @@ public class MapView extends SurfaceView {
         canvas.drawBitmap(map, 100, 100, myPaint );
 
 
+
+
     }
 }
 

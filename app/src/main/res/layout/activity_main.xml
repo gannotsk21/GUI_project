@@ -50,6 +50,7 @@
                 android:layout_weight="0"
                 app:srcCompat="@drawable/infection3" />
 
+
             <ImageView
                 android:id="@+id/pandemiccard29"
                 android:layout_width="204dp"
@@ -90,6 +91,12 @@
             android:layout_width="match_parent"
             android:layout_height="150dp"
             app:srcCompat="@drawable/role3" />
+
+        <TextView
+            android:id="@+id/messageBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Player 1, it is your turn. \n4 moves remaining." />
     </LinearLayout>
 
     <LinearLayout
